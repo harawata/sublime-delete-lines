@@ -18,12 +18,9 @@ This plugin's ```delete_lines``` command deletes only the second line with the s
 
 ![How plugin works](plugin.png)
 
-The attached key bindings are ```cmd + d``` on Mac OS X and ```ctrl + d``` on Windows and Linux.
+The attached key bindings are ```ctrl + shift + k``` on all platforms.
 ```
-{ "keys": ["super+d"], "command": "delete_lines" }
-```
-```
-{ "keys": ["ctrl+d"], "command": "delete_lines" }
+{ "keys": ["ctrl+shift+k"], "command": "delete_lines" }
 ```
 
 ## Installation
